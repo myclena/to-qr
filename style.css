@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(192, 206, 224);
+}
+.container{
+    background-color: white;
+	border-radius: 17px;
+	width: 25%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4cm;
+	margin-top: 4cm;
+}
+img{
+   
+ padding-left: 55px;
+}
+
+div{
+    padding: 20px;
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+}
+article{
+    font-size: 20px;
+    text-align: center;
+}
+.top{
+    width: 85%;
+    background-color: rgb(73, 154, 254);
+    border-radius: 5px;
+}
+@media only screen and (max-width:  558px) {
+    /* For mobile phones: */
+    [class*="container"] {
+      width: 70%;
+      padding: 20px;
+    }
+    img {
+        padding-left: 70px;
+    }
+    
+  }
